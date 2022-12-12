@@ -54,16 +54,16 @@
         }
         updateBannerVisibility();
       }
-
+      var gameFile = "Future City Mobile Controls Yinga"
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Future City Mobile Controls Yinga.loader.js";
+      var loaderUrl = buildUrl + "/"+gameFile+".loader.js";
       var config = {
-        dataUrl: buildUrl + "/Future City Mobile Controls Yinga.data",
-        frameworkUrl: buildUrl + "/Future City Mobile Controls Yinga.framework.js",
-        codeUrl: buildUrl + "/Future City Mobile Controls Yinga.wasm",
+        dataUrl: buildUrl + "/"+gameFile+".data",
+        frameworkUrl: buildUrl + "/"+gameFile+".framework.js",
+        codeUrl: buildUrl + "/"+gameFile+".wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "G Force",
+        companyName: "Yinga Be Africa",
+        productName: "Yinga Be Africa",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -89,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner('Please wait while your application launches.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
